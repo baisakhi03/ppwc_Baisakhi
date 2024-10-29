@@ -1,41 +1,23 @@
 #include<stdio.h>
 int main(){
-    int n,number=0,c=0,place=1;
+    char s[100]; 
 
-    printf("Enter the  number");
-    scanf("%d",&n);
+    printf("Enter a number: ");
+    fgets(s, sizeof(s), stdin);
 
-    if(n<0){
-        c=c+1;
-        n=-n;
-    }
-    if(n==0){
-        number=number+1*place;
-    }
-
-    while(n>0){
-        int digit=n%10;
-        if(digit==0){
-            number=number+1*place;
+    // Iterate through the string and replace characters
+    for (int i = 0; s[i] != '\0'; i++) {
+        if (s[i] == '0') {
+            s[i] = '1';
+        } else if (s[i] == '1') {
+            s[i] = '0';
         }
-
-        else if(digit==1){
-            number=number+0*place;
-        }
-        else{
-            number=number+digit*place;
-        }
-        n=n/10;
-        place=place*10;
     }
 
-        if(c!=0){
-          number=-number;
-        }
+    printf("Modified number is : %s", s);
+    return 0;
+}
 
-        printf("The new number is %d",number);
-        return 0;
-    }
 
 
 
