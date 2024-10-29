@@ -1,4 +1,4 @@
-  
+Q1- Write a c program to replace 0 and 1 in a number
 Explaination-
 In the program, the varialable declared are:-
 n-to store the number from the user by scanf function.
