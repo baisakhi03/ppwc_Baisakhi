@@ -5,7 +5,7 @@ int main(){
     printf("Enter a number: ");
     fgets(s, sizeof(s), stdin);
 
-    // Iterate through the string and replace characters
+
     for (int i = 0; s[i] != '\0'; i++) {
         if (s[i] == '0') {
             s[i] = '1';
