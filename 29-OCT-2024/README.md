@@ -6,7 +6,7 @@ n-to store the number from the user by scanf function.
 number-stores the new number after replacing 0 an 1 and it is intialized to 0
 c-counter variable taken to check for negative number,it is set to 0.It will be incremented by 1 if the n entered is negtive.
 place-it is taken to track the position in the new number so that every digit is placed on the right position.
-it
+
 LoGIC:-
 if the n is negative,then we increment the c to 1 and stores the abosulte value of n in n.
 If the n is zero,then the new number is automtically state to 1
