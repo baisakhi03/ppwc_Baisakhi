@@ -6,9 +6,8 @@ int main() {
     printf("Enter string c1: ");
     fgets(c1, sizeof(c1), stdin);
 
-    for (i = 0; c1[i] != '\0'; ++i) {
+    for (i = 0; c1[i] !='\0'; i++) {
         c2[i] = c1[i];
     }
     printf("String c2: %s", c2);
-    return 0;
 }
