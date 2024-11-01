@@ -4,7 +4,9 @@ Explaination:-
 
 Variable Declarations:
 char c1[20]: This array is used to store the input string from the user.
+
 char c2[20]: This array will hold the copied string.
+
 int i:This integer is used as a loop index for copying characters.
 
 Logic:-
