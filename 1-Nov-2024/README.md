@@ -3,6 +3,7 @@ Q1-Write a program to copy one string into another without using strcpy function
 Explaination:-
 
 Variable Declarations:
+
 char c1[20]: This array is used to store the input string from the user.
 
 char c2[20]: This array will hold the copied string.
